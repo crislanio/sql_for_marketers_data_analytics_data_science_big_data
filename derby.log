@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Aug 31 21:37:37 BRT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015e-3adf-2524-000008021420 
+on database directory /home/lupum/MEGA/DATA SCIENCE ESTUDOS/UDEMY/sql-for-marketers-data-analytics-data-science-big-data/sql_class-master/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@27dbaa33 
+Loaded from file:/opt/spark/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-b11
+user.dir=/home/lupum/MEGA/DATA SCIENCE ESTUDOS/UDEMY/sql-for-marketers-data-analytics-data-science-big-data/sql_class-master
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-92-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,30 @@
+/sql_class-master$ sqlite3 the_database.db
+lupum@:~/MEGA/DATA SCIENCE ESTUDOS/UDEMY/sql-for-marketers-data-analytics-data-science-big-data/sql_class-master$ sqlite3 the_database.db < create_actions.sql
+lupum@:~/MEGA/DATA SCIENCE ESTUDOS/UDEMY/sql-for-marketers-data-analytics-data-science-big-data/sql_class-master$ sqlite3 the_database.db
+SQLite version 3.13.0 2016-05-18 10:57:30
+Enter ".help" for usage hints.
+sqlite> .mode csv
+sqlite> .import small_actions.csv user_actions
+sqlite> .databases
+seq  name             file                                                      
+---  ---------------  ----------------------------------------------------------
+0    main             /home/lupum/sql-for-market
+sqlite> .schema
+CREATE TABLE user_actions(name TEXT, product TEXT, action TEXT, price REAL);
+sqlite> .tables
+user_actions
+sqlite> .header on
+sqlite> 
+sqlite> .exit
+
+create table users(name text, age integer, location	text);
+.mode csv
+.import users.csv users
+select * from users;
+
+history | grep spark-submit
+
+# alias spark-submit ="/opt/spark/bin/spark-submit"
+alias spark-submit="/home/lupum/spark/bin/spark-submit"
+
+spark-submit --master spark://localhost:7077 spark.py 
